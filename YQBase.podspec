@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.name             = 'YQBase'
   
 # pod库版本
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   
 # pod库指定swift版本
 # s.swift_version = '3.2'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.author           = { 'lzg_itman@163.com' => 'Jimmy' }
   
 # 数据源 tag
-  s.source           = { :git => 'https://github.com/Jimmy1992/YQBase', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Jimmy1992/YQBase.git', :tag => s.version.to_s }
   
 # 最低支持版本号
   s.ios.deployment_target = '9.0'
