@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.author           = { 'lzg_itman@163.com' => 'Jimmy' }
   
 # 数据源 tag
-  s.source           = { :git => 'https://github.com/Jimmy1992/YQBase', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Jimmy1992/YQBase.git', :tag => s.version.to_s }
   
 # 最低支持版本号
   s.ios.deployment_target = '9.0'
