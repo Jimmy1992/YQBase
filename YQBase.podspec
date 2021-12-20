@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 # spec.cocoapods_version = '>= 0.36'
   
 # Pod库的简要说明。字数最多为140字。描述应该剪短，但是内容丰富。
-  s.summary          = 'A short description of YQBase.'
+  s.summary          = '就是一个测试版本的, 做测试用'
 
 # 用来说明这个库的项目主页
   s.homepage         = 'https://github.com/lzg_itman@163.com/YQBase'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.author           = { 'lzg_itman@163.com' => 'Jimmy' }
   
 # 数据源 tag
-  s.source           = { :git => 'https://github.com/lzg_itman@163.com/YQBase.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Jimmy1992/YQBase', :tag => s.version.to_s }
   
 # 最低支持版本号
   s.ios.deployment_target = '9.0'
