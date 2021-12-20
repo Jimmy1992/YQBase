@@ -1,0 +1,6 @@
+framework module YQBase {
+  umbrella header "YQBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

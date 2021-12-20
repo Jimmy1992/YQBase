@@ -1,0 +1,21 @@
+{
+  "name": "YQBase",
+  "version": "0.1.0",
+  "summary": "A short description of YQBase.",
+  "homepage": "https://github.com/lzg_itman@163.com/YQBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lzg_itman@163.com": "Jimmy"
+  },
+  "source": {
+    "git": "https://github.com/lzg_itman@163.com/YQBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YQBase/Classes/**/*.{h,m,swift}"
+}

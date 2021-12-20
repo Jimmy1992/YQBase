@@ -1,36 +1,37 @@
-#
-# Be sure to run `pod lib lint YQBase.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
+
+# pod库名称, pod search "框架名"就是搜的这个
   s.name             = 'YQBase'
+  
+# pod库版本
   s.version          = '0.1.0'
+  
+# pod库指定swift版本
+# s.swift_version = '3.2'
+
+# pod库指定cocoapods版本
+# spec.cocoapods_version = '>= 0.36'
+  
+# Pod库的简要说明。字数最多为140字。描述应该剪短，但是内容丰富。
   s.summary          = 'A short description of YQBase.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+# 用来说明这个库的项目主页
   s.homepage         = 'https://github.com/lzg_itman@163.com/YQBase'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  
+# pod库开源许可证书 如MIT、GPL、LGPL、BSD
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lzg_itman@163.com' => 'zhengguo.li@bksti.com' }
-  s.source           = { :git => 'https://github.com/lzg_itman@163.com/YQBase.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+# 作者名称和邮箱，会读取本地git信息自动生成，允许匿名，只填邮箱，可设置多个用逗号分隔
+  s.author           = { 'lzg_itman@163.com' => 'Jimmy' }
+  
+# 数据源 tag
+  s.source           = { :git => 'https://github.com/lzg_itman@163.com/YQBase.git', :tag => s.version.to_s }
+  
+# 最低支持版本号
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'YQBase/Classes/**/*'
+# 源文件
+  s.source_files = 'YQBase/Classes/**/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'YQBase' => ['YQBase/Assets/*.png']
