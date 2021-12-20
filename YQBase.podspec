@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.name             = 'YQBase'
   
 # pod库版本
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   
 # pod库指定swift版本
 # s.swift_version = '3.2'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.summary          = '就是一个测试版本的, 做测试用'
 
 # 用来说明这个库的项目主页
-  s.homepage         = 'https://github.com/lzg_itman@163.com/YQBase'
+  s.homepage         = 'https://github.com/Jimmy1992/YQBase'
   
 # pod库开源许可证书 如MIT、GPL、LGPL、BSD
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
